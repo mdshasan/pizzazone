@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Yeseva One", cursive;
+  line-height: 1.4;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+.main-header {
+  background: url(../img/about-bg.jpg) no-repeat;
+  background-position: 52% 102%;
+  position: relative;
+  height: 30rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main_nav ul li {
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.main_nav ul li:not(:last-child) {
+  margin-right: 1.4rem;
+}
+
+.main_nav ul li a {
+  font-size: 1.2rem;
+}
+.main_nav ul li:hover a {
+  color: #aeab06;
+}
+
+.main-header .hero-section {
+  transform: translate(-50%, -50%);
+  top: 45%;
+}
+
+.hero-section h6 {
+  letter-spacing: 4px;
+  font-weight: 400;
+  color: #d8b67e;
+  font-family: poppins, sans-serif;
+}
+
+.hero-section input[type="button"] {
+  background-color: #aeab06;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.hero-section input[type="button"]:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.secret-container .secret-img {
+  flex-basis: 60%;
+}
+
+.secret-container .secret-box {
+  flex-basis: 20%;
+  align-self: flex-start;
+}
+
+.secret-container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.secret-box .secret-icon {
+  padding-bottom: 1.5rem;
+}
+
+.secret-box h4 {
+  padding-bottom: 1rem;
+}
+
+.evolution-container {
+  width: 90%;
+  margin: 6rem auto;
+}
+.evolution-container .evolution-box span:first-child {
+  width: 3px;
+  height: 4rem;
+  background-color: #e7e2db;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.evolution-container .evolution-box span:last-child {
+  font-size: 2rem;
+  color: #aeab06;
+}
+.evolution-container .evolution-box {
+  margin-bottom: 3.5rem;
+}
+.evolution-container .year {
+  flex-basis: 20%;
+}
+
+.evolution-container .evolution-content {
+  flex-basis: 45%;
+  margin-bottom: 3.5rem;
+}
+
+.evolution-container .evolution-img {
+  margin-bottom: 3.5rem;
+  flex-basis: 35%;
+}
+
+.evolution-content h4 {
+  margin-bottom: 1rem;
+}
+.evolution-content p {
+  color: #9b8d81;
+}
+
+.about-video {
+  padding: 8rem 0 6rem;
+  text-align: center;
+  background-color: #fff7f0;
+}
+
+.about-video span {
+  color: #d8b67e;
+  display: block;
+  letter-spacing: 3px;
+  font-family: poppins, sans-serif;
+  margin: 1rem 0 2.5rem;
+}

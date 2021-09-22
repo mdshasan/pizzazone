@@ -1,0 +1,134 @@
+.contact-header {
+  background-color: #fffbf7;
+  position: relative;
+  height: 25rem;
+}
+
+.contact-header .contact-bg {
+  background-image: url(../img/contact-header.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-header .hero-section {
+  width: 100%;
+}
+.contact-header .hero-section {
+  transform: translate(-50%, -50%);
+  top: 70%;
+}
+.hero-section h6 {
+  color: #aeab06;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+}
+
+.contact-content * {
+  font-family: poppins, sans-serif;
+}
+.contact-content h4 {
+  font-family: "Yeseva One", cursive;
+}
+.contact-main .contact-container {
+  width: 95%;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.contact-container .contact-img {
+  flex-basis: 55%;
+}
+
+.contact-container .contact-content {
+  flex-basis: 45%;
+}
+.contact-content *:not(h6) {
+  padding-bottom: 0.6rem;
+}
+
+.contact-inner button {
+  width: 9rem;
+  height: 2.5rem;
+  background-color: #aeab06;
+  line-height: 2.5rem;
+  position: relative;
+  z-index: 3;
+}
+
+.contact-inner button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+
+.contact-inner button:hover:after {
+  background-color: #9e9b05;
+  width: 100%;
+}
+.contact-content span {
+  display: block;
+  color: #9b8d81;
+}
+
+.contact-content a {
+  color: #aeab06;
+}
+
+.contact-content a:hover {
+  text-decoration: underline;
+}
+.contact-form {
+  margin: 4rem 0 2rem;
+  padding: 5rem 0 7rem;
+  background-color: #fffbf7;
+  border-bottom: 1px solid #9e9b0524;
+}
+.form-container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #4b2228;
+}
+.form-container form {
+  padding: 5rem 5rem;
+  font-family: poppins, sans-serif;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  background-color: #4b2228;
+  border: 0 none;
+  width: 100%;
+  padding: 1rem 1rem 0.5rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  display: block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.678);
+  outline: 0 none;
+}
+
+form input[type="submit"] {
+  height: 3rem;
+  background-color: #aeab06;
+  color: #fff;
+  outline: 0 none;
+  border: 0 none;
+  display: block;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #9b8d81;
+}
+
+form input,
+form textarea {
+  caret-color: #fff;
+}
