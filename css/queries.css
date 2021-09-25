@@ -262,6 +262,12 @@
     font-size: 0.5rem;
     letter-spacing: 2px;
   }
+  
+  /*about page*/
+  
+  .main-header{
+   background-position: 49% 102%; 
+  }
 
   /* contact page */
 
