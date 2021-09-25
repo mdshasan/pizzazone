@@ -6,11 +6,14 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+html{
+  overflow:hidden;
+}
 body {
   font-family: "Yeseva One", cursive;
   line-height: 1.4;
-  overflow-x: hidden;
+  overflow: hidden;
+  postion:relative;
 }
 
 img {
