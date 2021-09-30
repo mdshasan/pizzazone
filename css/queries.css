@@ -217,6 +217,18 @@
 }
 
 @media (max-width: 575px) {
+  
+  .navbar-brand {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+  }
+
+  .navbar-toggler {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 32%;
+            flex: 0 0 32%;
+  }
   .hero-section h1 {
     font-size: 1.3rem;
   }
