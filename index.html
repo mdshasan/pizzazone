@@ -5,34 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- bootstrap 5 -->
+   <!-- Favicon Section -->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <!-- font -->
+    <!-- Font -->
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
-    <!-- custom css -->
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/queries.css">    
     <title>Pizza Zone</title>
     </head>
     <body>
-    
+    <!-- Header Section -->
        <header class="main-header w-100">
-
-        <nav class="navbar navbar-expand-lg navbar-light">
+   <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+                  <!-- Container for navigation content -->
             <div class="container">
               <a class="navbar-brand" href="#"><img src="img/pizza logo.png" alt="logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                   <!-- Hamburger Icon -->
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="2em" height="1.7em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path class="uim-primary" d="M21 13H3a1 1 0 0 1 0-2h18a1 1 0 0 1 0 2zm0 5H3a1 1 0 0 1 0-2h18a1 1 0 0 1 0 2zm0-10H3a1 1 0 0 1 0-2h18a1 1 0 0 1 0 2z" fill="#aeab06"/></svg>
               </button>
+
+               <!-- Navigation Links -->
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    <a id="first_item" class="nav-link " href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="about.html">About Us</a>
@@ -53,45 +64,29 @@
             </div>
           </nav>
 
-        <!-- <div class="nav-container h-24 mx-auto my-0 d-flex justify-content-between align-items-center">
-            <div class="brand">
-                <a href="index.html"><img class="h-auto" src="img/pizza logo.png" alt=""></a>
-            </div>
-
-            <nav class="main_nav fs-5">
-                <ul class="list-unstyled">
-                    <li class="active"><a href="index.html">home</a></li>
-                    <li><a href="about.html">about us</a></li>
-                    <li><a href="menu.html">our menu</a></li>
-                    <li><a href="photos.html">photos</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                </ul>
-            </nav>
-
-            <div class="mobile-menu">
-                <span></span>
-            </div>
-        </div> -->
-
+    <!-- Hero Section -->
         <div class="hero-section position-absolute text-center start-50">
             <h1 class="pb-3 text-white">Real Italian pizza with real ingrediants</h1>
             <h6 class="text-uppercase pb-3 text-white">the best italian pizza</h6>
-            <input class="btn btn-lg fs-6" type="button" value="See the menu">
+            <a href="menu.html" class="btn btn-lg fs-6" >See the Menu</a>
         </div>
 
     </header>
 
+<!-- Recipe Section -->
     <section class="receipe-section">
+          <!-- Recipe Container -->
 
         <div class="receipe-container flex-xl-row flex-xxl-row d-flex flex-lg-row flex-column flex-wrap  justify-content justify-content-center justify-content-xl-between align-items-center py-5 my-0 mx-auto ">
+              <!-- Recipe Content - Left Side -->
             <div class="receipe-img mb-5">
-                <img src="img/side-1.png" alt="">
+                <img src="img/side-1.png" alt="receipe">
             </div>
 
             <div class="receipe-content mb-5">
                 <h2 class="mb-5">We use proven recipes and fresh ingredients
                 </h2>
-                <img class="mb-5" src="img/line.png" alt="">
+                <img class="mb-5" src="img/line.png" alt="receipe">
                 <p >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
 
                 </p>
@@ -101,12 +96,12 @@
 
                <span class="mt-5"><input class="btn btn-lg fs-6" type="button" value="Read more"></span>
             </div>
-
+     <!-- Recipe Content - Right Side -->
             <div class="receipe-content side-2">
                 <h2 class="mb-5">Mauris at risus arcu a dictum a, rutrum id, suspendisse laoreet
 
                 </h2>
-                <img class="mb-5" src="img/line.png" alt="">
+                <img class="mb-5" src="img/line.png" alt="receipe">
                 <p >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
 
                 </p>
@@ -116,49 +111,51 @@
 
                <span class="mt-5"><input class="btn btn-lg fs-6" type="button" value="Read more"></span>
             </div>
-
+   <!-- Recipe Image - Right Side -->
             <div class="receipe-img receipe-img-2">
                 
             </div>
         </div>
-
+<!-- Recipe Basis Section -->
         <h2 class="text-center  mb-3">The basis of our pizza are four ingredients
         </h2>
         <h5 class="text-center mb-5 fs-6">NUNC VOLUTPAT ULTRICIES A, RUTRUM
         </h5>
-
+ <!-- Ingredients Container -->
         <div class="ingrediants-container g-5 row mx-auto my-0">
             <div class="col-lg-3 col-md-6 col-sm-12 ingrediant-item">
                 <span>tomato</span>
-                <img src="img/ingrediant-1.jpg" alt="">
+                <img src="img/ingrediant-1.jpg" alt="ingrediant">
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-12 ingrediant-item">
                 <span>garlic</span>
-                <img src="img/ingrediant-2.jpg" alt="">
+                <img src="img/ingrediant-2.jpg" alt="ingrediant">
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-12 ingrediant-item">
                 <span>basil</span>
-                <img src="img/ingrediant-3.jpg" alt="">
+                <img src="img/ingrediant-3.jpg" alt="ingrediant">
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-12 ingrediant-item">
                 <span>extras</span>
-                <img src="img/ingrediant-4.jpg" alt="">
+                <img src="img/ingrediant-4.jpg" alt="ingrediant">
             </div>
 
         </div>
+            <!-- Menu Card Container -->
         <div class="menu-card-container w-100">
             <div class="menu-card row gx-5 gy-5 mx-auto my-0">
+                  <!-- Menu Card - Left Side -->
                 <div class="menu-card-img col-md-6 col-sm-12 text-center">
-                    <img src="img/card-1.jpg" alt="">
+                    <img src="img/card-1.jpg" alt="ingrediant">
                         <div class="explore-menu d-flex p-5 justify-content-center align-items-center flex-column">
                             <a href="#">See the menu card</a>
                             <a href="#">italian specialities</a>
                         </div>    
                 </div>
-
+     <!-- Menu Card - Right Side -->
                 <div class="menu-card-img-2 col-md-6 col-sm-12 text-center">
                     <img src="img/card-2.jpg" alt="">
                         <div class="explore-menu d-flex p-5 justify-content-center align-items-center flex-column ">
@@ -171,13 +168,16 @@
         </div>    
 
     </section>
-
+<!-- Proposal Section -->
     <section class="proposal">
+            <!-- Background Image -->
         <img src="img/bg-2.jpg" alt="">
+         <!-- Section Heading -->
         <h3 class="text-center mt-5 mb-3 ">Get to know our tastiest proposals</h3>
         <h5 class="text-uppercase text-center">ALIQUAM FRINGILLA ALIQUAM EX SIT AMET</h5>
-        
+         <!-- Proposal Container -->
         <div class="proposal-container row mx-auto my-5 my-0 text-center ">
+            <!-- Proposal Item - Margarita -->
             <div class="col-xs-12 col-sm-6 col-md-3 proposal-item">
                 <img src="img/menu-1.png" alt="">
                 <h4>Margarita
@@ -185,24 +185,24 @@
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit                </p>
                 <span>$ 10,00</span>
             </div>
-
+  <!-- Proposal Item - Spinachi -->
             <div class="col-xs-12 col-sm-6 col-md-3 proposal-item">
-                <img src="img/menu-2.png" alt="">
+                <img src="img/menu-2.png" alt="proposalImg">
                 <h4>Spinachi
                 </h4>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit                </p>
                 <span>$ 12,00</span>
             </div>
-
+ <!-- Proposal Item - Chicken Pini -->
             <div class="col-xs-12 col-sm-6 col-md-3 proposal-item">
-                <img src="img/menu-3.png" alt="">
+                <img src="img/menu-3.png" alt="proposalImg">
                 <h4>Chicken Pini</h4>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit                </p>
                 <span>$ 14,00</span>
             </div>
-
+ <!-- Proposal Item - Paprica Vida -->
             <div class="col-xs-12 col-sm-6 col-md-3 proposal-item">
-                <img src="img/menu-4.png" alt="">
+                <img src="img/menu-4.png" alt="proposalImg">
                 <h4>Paprica Vida</h4>
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit                </p>
                 <span>$ 16,00</span>
@@ -210,22 +210,27 @@
         </div>
     </section>
 
+    <!-- Call to Action Section -->
     <section class="call2action w-100">
+           <!-- Background Overlay -->
         <div class="bg-4">
             
         </div>
+            <!-- Call to Action Container -->
         <div class="call2action-container d-flex ps-5 flex-sm-column flex-md-row justify-content-sm-center justify-content-md-between align-items-sm-start align-items-md-center">
+            <!-- Order Section -->
             <div class="order-wrapper  d-flex flex-sm-column flex-md-row justify-content-sm-center justify-content-md-start align-items-sm-start align-items-md-center">
+                 <!-- Order Icon -->
                 <div class="order-icon align-self-sm-center">
-                    <img src="img/call2action.png" alt="">
+                    <img src="img/call2action.png" alt="call2actionImg">
                 </div>
-
+  <!-- Order Content -->
                 <div class="order-content">
                     <h3 class="text-white fs-2">Order on-line</h3>
                     <h3 class="fs-2"><span class="fs-4">+61 (0) </span> 3 8376 6284</span>
                 </div>
             </div>
-
+    <!-- Promotion Section -->
             <div class="promotion ">
                     <a class="fs-6 p-2" href="#">Check possible promotions</a>
             </div>
@@ -233,9 +238,11 @@
         </div>
 
     </section>
-
+<!-- Footer Section -->
     <footer class="w-100 pt-5">
+            <!-- Footer Container -->
         <div class="footer-container row gy-4 mx-auto my-0">
+             <!-- Localization Column -->
             <div class="col-md-3 col-sm-6 col-xs-12 footer-col">
                 <h4>Localization</h4>
                 <span>Be Pizza3</span>
@@ -243,7 +250,7 @@
                     Melbourne, Victoria 3000 <br>
                     Australia</span>
             </div>
-
+   <!-- Contact Column -->
             <div class="col-md-3 col-sm-6 col-xs-12 footer-col">
                 <h4>Contact</h4>
                 <span class="pb-3">Nullam viverra consectetuer. <br> Quisque cursus et:
@@ -252,13 +259,13 @@
                 <span><a href="#">info@pizza-zone.co</a><br>
                     +61 (0) 3 8376 6284 </span>
             </div>
-
+ <!-- Opening Hours Column -->
             <div class="col-md-3 col-sm-6 col-xs-12 footer-col">
                 <h4>Opening hours</h4>
                 <span>We work from Monday to Friday.</span>
                 <span>From 8:00 to 18:00</span>
             </div>
-
+ <!-- Social Media Column -->
             <div class="col-md-3 col-sm-6 col-xs-12 footer-col">
                 <h4>social media</h4>
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="2.5rem" height="2.5rem" preserveAspectRatio="xMidYMid meet" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" fill="white"/></svg>
@@ -269,13 +276,18 @@
 
             </div>
         </div>
-
+  <!-- Footer Bottom Section -->
         <div class="footer-bottom py-5 text-center">
             <span class="d-block">&copy; Designed and Developed by<a href="#">MS Hasan</a></span>
 
         </div>
     </footer>
-    <!-- bootsrap 5 js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
+   
+<script src="script.js"></script>
+ <!-- Bootstrap 5 JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
