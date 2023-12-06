@@ -13,7 +13,7 @@ body {
   font-family: "Yeseva One", cursive;
   line-height: 1.4;
   overflow-x: hidden;
-  postion:relative;
+  position:relative;
 }
 
 img {
@@ -31,7 +31,7 @@ p {
   height: 100vh;
 }
 
-a {
+a{
   text-decoration: none;
   color: #fff;
 }
@@ -52,13 +52,17 @@ header nav {
   position: relative;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-item .nav-link {
   color: #ffffff;
   font-size: 1.25rem;
 }
 
+.navbar-light .navbar-nav .nav-link.active{
+  color:#aeab06;
+}
+
 .navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover{
   color: #aeab06;
 }
 
@@ -139,15 +143,19 @@ header nav {
   font-weight: 300;
 }
 
-.hero-section input[type="button"] {
+.hero-section a {
   background-color: #aeab06;
   font-weight: 400;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
   color: #fff;
 }
 
+.hero-section a:hover{
+  border:1px solid #4d2429;
+  color: #fff;
+}
 .hero-section input[type="button"]:hover {
   background-color: #fff;
   color: #000;
@@ -422,3 +430,4 @@ footer .footer-container {
   display: inline-block;
   margin-left: 0.6rem;
 }
+
